@@ -4,6 +4,9 @@
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/source"/>
+        <dependent-module archiveName="BGS-DAO.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BGS-DAO/BGS-DAO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="BGS"/>
         <property name="java-output-path" value="/BGS/build/classes"/>
     </wb-module>
