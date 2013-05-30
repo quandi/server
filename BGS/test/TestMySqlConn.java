@@ -16,7 +16,5 @@ public class TestMySqlConn
         UserDao userDao = (UserDao)context.getBean("userDao");
         User user = userDao.selectUser();
         System.out.println(user);
-        
     }
-    
 }

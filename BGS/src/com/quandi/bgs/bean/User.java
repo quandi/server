@@ -1,19 +1,7 @@
 package com.quandi.bgs.bean;
 
-/**
- * ”√ªß¿‡
- * 
- * @author db2admin
- * 
- */
 public class User
 {
-    @Override
-    public String toString()
-    {
-        return "User [name=" + name + ", age=" + age + "]";
-    }
-
     private String name;
     
     private Integer age;
@@ -38,8 +26,9 @@ public class User
         this.age = age;
     }
     
-    public User()
+    @Override
+    public String toString()
     {
+        return "User [name=" + name + ", age=" + age + "]";
     }
-    
 }
