@@ -3,7 +3,6 @@
 	<name>BGS</name>
 	<comment></comment>
 	<projects>
-		<project>BGS-DAO</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

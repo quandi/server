@@ -1,11 +1,8 @@
 package com.quandi.bgs.util;
 
-import com.quandi.bgs.dao.LoginDAO;
 
 public class FileUtil
 {
-    LoginDAO loginDAO;
-    
     /** 
      * <一句话功能简述>
      * <功能详细描述>

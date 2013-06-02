@@ -2,9 +2,21 @@ package com.quandi.bgs.bean;
 
 public class User
 {
+    private String id;
+    
     private String name;
     
     private Integer age;
+    
+    public String getId()
+    {
+        return id;
+    }
+    
+    public void setId(String id)
+    {
+        this.id = id;
+    }
     
     public String getName()
     {
@@ -29,6 +41,7 @@ public class User
     @Override
     public String toString()
     {
-        return "User [name=" + name + ", age=" + age + "]";
+        return "User [id=" + id + ", name=" + name + ", age=" + age + "]";
     }
+    
 }

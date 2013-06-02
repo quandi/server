@@ -1,8 +1,8 @@
-package com.quandi.bgs.dao;
+package com.quandi.bgs.service;
 
 import com.quandi.bgs.bean.User;
 
-public interface UserDao
+public interface UserService
 {
     public User findUser(String userID) throws Exception;
     
